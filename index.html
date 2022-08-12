@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="board">
+                <h1><span id="runOut">0</span>-<span id="wicketOut">0</span></h1>
+                <h2>Overs : <span id="overOut">0</span>.<span id="ballOut">0</span></h2>
+            </div>
+            <div class="controls">
+                <button id="zeroBtn" class="runBtn btn">0</button>
+                <button id="oneBtn" class="runBtn btn">1</button>
+                <button id="twoBtn" class="runBtn btn">2</button>
+                <button id="threeBtn" class="runBtn btn">3</button>
+                <button id="fourBtn" class="runBtn btn">4</button>
+                <button id="fiveBtn" class="runBtn btn">5</button>
+                <button id="sixBtn" class="runBtn btn">6</button><br>
+                <input type="number" placeholder="Runs" id="runInp" class="btn">
+                <button id="subRun" class="btn">Submit</button>
+                <button id="wideBtn" class="btn">No Ball</button><label for="wideBtn" id="wideMsg" style="visibility: hidden;">
+                    Please select a run</label><br>
+                <button id="wicBtn" class="btn">Wicket</button>
+
+                <br>
+                <button id="clear" class="btn">Clear</button>
+                <br>
+                <label for="lastover">Last Overs : </label><p id="historyOut"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./temp.js"></script>
+    <!-- <script src="./main.js"></script> -->
+</body>
+
+</html>
